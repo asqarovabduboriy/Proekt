@@ -1,0 +1,687 @@
+/////header\\\\\
+@import "./header";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cccfff;
+}
+
+.mini-header {
+    background: rgb(69, 79, 91);
+}
+
+.container {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0px 9px 0px;
+
+    p {
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 12%;
+        text-align: left;
+    }
+
+    span {
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 12%;
+        text-align: left;
+        text-decoration-line: underline;
+        margin-left: 197px;
+    }
+}
+
+header {
+    box-shadow: inset 0px -1px 0px 0px rgb(196, 205, 213);
+    background: rgb(255, 255, 255);
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0px 29px 0px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 28, 36);
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.srves-container {
+    display: flex;
+    gap: 8px;
+
+    span {
+        color: rgb(69, 79, 91);
+        font-family: SF Pro Display;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.icon-container {
+    i {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+
+///////////////////////////main-section
+
+.text-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 82px;
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: "SF Pro Text";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: " SF Pro Text";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-top: 5px;
+    }
+}
+
+.filter {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .sbros-filter-btn {
+        width: 288px;
+        box-sizing: border-box;
+        border: 1px solid rgb(173, 215, 255);
+        background: rgb(255, 255, 255);
+        color: rgb(22, 28, 36);
+        font-family: "HelveticaNeueCyr";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 7px 72px 7px 72px;
+    }
+
+    .zamki-btn {
+        max-width: 202px;
+        border: none;
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        background-color: white;
+        padding: 5px;
+    }
+
+    .filter-selesctd {
+        box-sizing: border-box;
+        border: 1px solid rgb(196, 205, 213);
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 7px 16px 7px 16px;
+    }
+
+    .selesct-optional {
+        margin-left: 508px;
+    }
+}
+
+.filter-card {
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 205, 213);
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    width: 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.option {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    p {
+        padding-top: 23px;
+        padding-bottom: 23px;
+    }
+
+    img {
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+}
+
+.tortbburchak {
+    display: flex;
+    margin-top: 16px;
+    gap: 8px;
+
+    span {
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        box-sizing: border-box;
+        border: 1px solid rgb(66, 149, 228);
+        background: rgb(255, 255, 255);
+        padding: 10px 26px 10px 35px;
+    }
+}
+
+.border-chiziq {
+    position: static;
+    width: 240px;
+    height: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+    border: 1px solid rgb(237, 237, 237);
+}
+
+.option-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-card {
+    position: relative;
+    background: rgba(0, 0, 0, 0.03), url(1);
+}
+
+.big-wraper-card {
+    margin-top: 32px;
+}
+
+.cards-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.absalyut {
+    position: absolute;
+    margin-top: -310px;
+    display: flex;
+    gap: 10px;
+
+    .button1 {
+        color: rgb(69, 79, 91);
+        font-family: SF Pro Text;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+        background-color: white;
+        padding: 5px;
+        border: solid white;
+    }
+
+    .sale {
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        background-color: white;
+        padding: 8px 10px 8px 10px;
+        border: solid white;
+        margin-left: 50px;
+    }
+
+    span {
+        background: rgb(255, 255, 255);
+        margin-left: 10px;
+        padding: 5px;
+    }
+}
+
+.absalyut2 {
+    position: absolute;
+    margin-top: -260px;
+    display: flex;
+
+    button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+        background: rgb(255, 255, 255);
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 6px 8px 6px 8px;
+        border: solid white;
+        margin-left: 10px;
+    }
+}
+
+.card-text-content {
+    margin-top: -10px;
+    box-shadow: inset -1px 0px 0px 0px rgb(234, 234, 234), inset 1px 0px 0px 0px rgb(234, 234, 234),
+        inset 0px -1px 0px 0px rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
+}
+
+.reyting {
+    display: flex;
+    gap: 8px;
+    padding: 12px;
+}
+
+.text-p {
+    color: rgb(69, 79, 91);
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 240px;
+    padding-left: 12px;
+    padding-top: 6px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+
+    b {
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    p {
+        color: rgb(69, 79, 91);
+        font-family: SF Pro Text;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: line-through;
+    }
+}
+
+.title-p {
+    color: rgb(69, 79, 91);
+    font-family: SF Pro Text;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 12px;
+}
+
+.big-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 72px;
+    gap: 30px;
+
+    .small-text-container {
+        // margin: 0 auto;
+
+        h3 {
+            color: rgb(22, 28, 36);
+            font-family: SF Pro Text;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 42px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        p {
+            color: rgb(69, 79, 91);
+            font-family: SF Pro Text;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0%;
+            text-align: left;
+            max-width: 605px;
+            margin-top: 24px;
+        }
+    }
+
+    .small-text-container-two {
+        // margin: 0;
+
+        p {
+            color: rgb(69, 79, 91);
+            font-family: SF Pro Text;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0%;
+            text-align: left;
+            max-width: 605px;
+            margin-top: 24px;
+        }
+    }
+
+    .checkbox-container-wraper {
+        margin-top: 24px;
+    }
+
+    .input-one {
+        margin-left: 32px;
+    }
+
+    label {
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+
+.big-text-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 82px;
+
+    .small-text-container-there {
+        h3 {
+            color: rgb(22, 28, 36);
+            font-family: SF Pro Text;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 42px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        p {
+            max-width: 605px;
+            color: rgb(69, 79, 91);
+            font-family: SF Pro Text;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 24px;
+        }
+    }
+
+    .small-text-container-four {
+        margin-top: 16px;
+        p {
+            max-width: 605px;
+            color: rgb(69, 79, 91);
+            font-family: SF Pro Text;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+}
+
+.bg-color-footer {
+    margin-top: 104px;
+    background: rgb(242, 248, 255);
+}
+
+.footert-text {
+    padding-top: 64px;
+    h1 {
+        color: rgb(22, 28, 36);
+        font-family: SF Pro Text;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 62px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    p {
+        color: rgb(69, 79, 91);
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 24px;
+        max-width: 518px;
+    }
+}
+
+.input-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+    padding-bottom: 56px;
+    input {
+        background: rgba(22, 28, 36, 0.04);
+        padding: 12px 6px;
+        border: none solid white;
+        color: rgb(69, 79, 91);
+        font-family: SF Pro Text;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    button {
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        background: rgb(66, 149, 228);
+        padding: 12px 71px;
+        border: none solid white;
+    }
+}
+
+footer {
+    box-shadow: inset 0px 1px 0px 0px rgb(196, 205, 213);
+    background: rgb(13, 36, 54);
+}
+.footer-wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 55px;
+    .logo {
+        padding-top: 64px;
+    }
+}
+
+.ul-item {
+    ul {
+        display: grid;
+        li {
+            a {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Text;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.ul-item-two {
+    ul {
+        display: grid;
+        li {
+            a {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Text;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.ul-item-there {
+    ul {
+        display: grid;
+        li {
+            a {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Text;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: capitalize;
+            }
+        }
+
+        p {
+            max-width: 182px;
+            height: 78px;
+            color: rgb(255, 255, 255);
+            font-family: SF Pro Text;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+}
+.ul-item-five {
+    ul {
+        display: grid;
+        li {
+            a {
+                color: rgb(255, 255, 255);
+                font-family: SF Pro Text;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 26px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+    }
+}
